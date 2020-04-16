@@ -4,9 +4,6 @@ node_modules/
 build
 .DS_Store
 *.tgz
-my-app*
-template/src/__tests__/__snapshots__/
-lerna-debug.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -14,5 +11,5 @@ yarn-error.log*
 .npm/
 yarn.lock
 
-public/assets
-public/fonts
+/public/assets
+/public/fonts
