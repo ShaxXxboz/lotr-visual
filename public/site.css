@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(22, 22, 23) !important;
+}
+
+@font-face {
+  font-family: Aniron;
+  src: url(fonts/aniron-font/Aniron-7BaP.ttf);
+}
+
+@font-face {
+  font-family: Ringbearer;
+  src: url(fonts/ringbearer-font/RingbearerMedium-w173.ttf);
+}
+
+.custom-width-container {
+  width: 82%;
+  margin: auto;
+}
+
+.breadcrumb {
+  font-family: Aniron;
+  color: rgba(236, 194, 60, 0.93);
+  background: inherit !important;
+}
+
+.breadcrumb a,
+.breadcrumb a:hover {
+  font-family: Aniron;
+  color: rgba(236, 194, 60, 0.93);
+  text-decoration: none;
+}
+
+.breadcrumb-item.active {
+  color: rgb(211, 204, 141) !important;
+}
+
+.breadcrumb a:hover {
+  color: rgb(233, 233, 233);
+}

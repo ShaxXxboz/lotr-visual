@@ -1,0 +1,15 @@
+.logo {
+  margin-top: 1.5em;
+  margin-bottom: 2.5em;
+  text-align: center;
+}
+
+.logo img {
+  width: 35%;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo img {
+    width: 80%;
+  }
+}

@@ -1,0 +1,47 @@
+.profile-card {
+  height: 28rem;
+  background-color: rgba(0, 0, 0, 0.48) !important;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+h2 {
+  font-family: Aniron;
+}
+
+.profile-card .col-md-4,
+.profile-card .col-md-8 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  padding: 0px !important;
+  border: 0px !important;
+  object-fit: cover;
+  transition: all 0.2s ease;
+  vertical-align: middle;
+}
+
+.profile-info {
+  color: rgba(236, 194, 60, 0.93);
+  font-family: serif;
+  font-size: large;
+  padding: 2rem !important;
+}
+
+.profile-info p {
+  margin-bottom: 0.5rem !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .profile-card {
+    height: inherit;
+  }
+
+  .profile-avatar {
+    height: 30rem;
+  }
+}

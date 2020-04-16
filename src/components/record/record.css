@@ -1,0 +1,13 @@
+.record {
+  font-family: "Roboto Slab", serif;
+}
+
+.record-label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.record-field {
+  font-size: 16px;
+  font-weight: 500;
+}
