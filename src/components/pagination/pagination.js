@@ -21,7 +21,6 @@ const Pagination = ({
   }
 
   return (
-    <div aria-label="pagination">
       <ul className="pagination">
         <li>
           <Link
@@ -59,7 +58,6 @@ const Pagination = ({
           </Link>
         </li>
       </ul>
-    </div>
   );
 };
 

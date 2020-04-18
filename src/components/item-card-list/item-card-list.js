@@ -92,7 +92,7 @@ class ItemCardList extends Component {
         </div>
         {loader}
         {errorMessage}
-        <div className="row row-cols-md-5 row-cols-sm-1 row-cols-1">
+        <div className="row row-cols-md-5 row-cols-sm-2 row-cols-2">
           <ErrorBoundary>{items}</ErrorBoundary>
         </div>
       </div>
